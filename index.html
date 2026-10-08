@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PwC Snapshot Prep - Prompts</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: .3rem; }
+  .prompt { position: relative; background: #f6f8fa; border: 1px solid #d0d7de; border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+  .prompt pre { white-space: pre-wrap; margin: 0; font-size: .9rem; }
+  button.copy { position: absolute; top: .6rem; right: .6rem; cursor: pointer; border: 1px solid #d0d7de; background: #fff; border-radius: 6px; padding: .3rem .7rem; font-size: .8rem; }
+  button.copy:hover { background: #eaeef2; }
+  .note { color: #555; font-size: .9rem; }
+  blockquote { border-left: 3px solid #ccc; margin: 1rem 0; padding: .2rem 1rem; color: #333; }
+</style>
+</head>
+<body>
+<h1>PwC Snapshot Prep — Prompts</h1>
+<p class="note">Transcribed from Hannah Adrian's Teams message, 2026-10-08. Step 1: run the three Part 1 prompts on the C1 machine to pull real data. Step 2: paste Part 1 outputs plus the Part 2 prompt to draft the summary. Snapshot provider: <strong>Brandon Block</strong>. Reach out within 24 hours; Snapshot due <strong>October 16</strong>.</p>
+
+<h2>Part 1A — Contributions and impact</h2>
+<div class="prompt"><button class="copy" onclick="copyPrompt(this)">Copy</button><pre>Based on everything you can access on this machine (my emails, Teams messages, calendar, Jira tickets, Confluence pages, and code/commits), summarize my key work contributions from the last 3 months (July 8, 2026 through October 8, 2026). I am Varun Ved, a Team Lead embedded at Capital One (via Kunai/PwC), working on Java/XML + Go microservices, an alert scalability and tuning program, and AirKey v2 tap-to-pay backend services (Go on AWS).
+
+For each contribution, give: what it was, the outcome or impact, and the source (e.g. ticket ID, email subject, date). Organize into:
+- Key projects and contributions
+- Impact, outcomes, and any recognition received (praise from leads, client feedback, shout-outs)
+- Whether the work was independent, collaborative, or both, and who I worked with
+
+Rules: use only real data you can cite. Do not invent metrics, ticket numbers, or praise. If you cannot verify something, say so instead of guessing. If a source is not accessible to you, list it under "sources I could not check" so I can fill the gap manually.</pre></div>
+
+<h2>Part 1B — AI enablement</h2>
+<div class="prompt"><button class="copy" onclick="copyPrompt(this)">Copy</button><pre>Based on everything you can access on this machine (my emails, Teams messages, code/commits, docs), summarize how I have leveraged AI in my work over the last 3 months (July 8, 2026 through October 8, 2026). I am Varun Ved, a Team Lead embedded at Capital One (via Kunai/PwC).
+
+Cover:
+- Tools and AI-enabled solutions I have used (e.g. Claude Code, agentic workflows, MCP integrations, automations I built)
+- Specific examples: what I built or automated with AI, and what changed as a result
+- How AI improved efficiency, quality, collaboration, or overall impact on my team
+
+Rules: use only real data you can cite (commit messages, docs, messages, dates). Do not invent usage or results. If you cannot verify something, say so.</pre></div>
+
+<h2>Part 1C — Development areas</h2>
+<div class="prompt"><button class="copy" onclick="copyPrompt(this)">Copy</button><pre>Based on my work over the last 3 months that you can see on this machine, suggest 2-3 areas where I could seek additional visibility or development feedback as a Team Lead, and 2-3 skills or experiences I could strengthen going forward. Frame them as honest growth areas, not weaknesses. Keep each to one sentence.</pre></div>
+
+<h2>Part 2 — Draft the Snapshot summary</h2>
+<p class="note">Paste this along with your Part 1 outputs.</p>
+<div class="prompt"><button class="copy" onclick="copyPrompt(this)">Copy</button><pre>I need to prepare a summary of my work for my upcoming PwC Snapshot. Here are the instructions from my Talent Manager (Hannah Adrian):
+
+We got the go ahead to initiate snapshots, and want to get those in ASAP. My recommended Snapshot provider is Brandon Block. If another Lead had greater visibility into my work, I may select that person instead.
+
+I need to reach out to my Snapshot provider within the next 24 hours to confirm they are comfortable providing my Snapshot. This is time-sensitive, and the Snapshot should be completed by October 16.
+
+When I reach out, I need to include a short summary of my work to give my Snapshot provider clear context. Organize the summary into the following three sections:
+
+1. Contributions, Impact &amp; Strengths
+- Key projects and contributions from the last six months
+- Impact, outcomes, and any recognition received
+- Strengths I would value feedback on
+- Whether I worked independently, collaboratively, or both
+- Relevant links or additional context, when helpful
+
+2. AI Enablement
+- How I have leveraged AI in my work
+- Any tools, automations, process improvements, or AI-enabled solutions I have used
+- How AI helped improve efficiency, quality, collaboration, or overall impact
+
+3. Development &amp; Visibility
+- Areas where I would like additional visibility or development feedback
+- Skills, experiences, or areas I would like to strengthen moving forward
+
+Optional: if I have a strong working relationship with my Engagement Management Manager or another stakeholder who is not the recommended Snapshot provider, I may request their feedback as well. If appropriate and I feel comfortable doing so, I may also ask for client feedback. I should share the name of any additional feedback provider with my Talent Manager so it can be documented.
+
+Providing this context upfront helps my Snapshot provider write more specific, meaningful feedback.
+
+Message template for reaching out to Brandon Block:
+
+Hi [Name],
+I'm preparing for my upcoming Snapshot and would really value your feedback based on our work together on [project/client]. The Snapshot is due by October 16, and I'll send time for us to connect this week.
+
+To make it easier, I've included a brief summary of my key contributions, impact, how I've leveraged AI in my work, and the areas where I'd especially value your perspective.
+
+[Add your 1, 2, &amp; 3 here]
+Please let me know if you'd prefer to discuss this collaboratively or complete the Snapshot asynchronously.
+Thank you so much!
+
+---
+
+Now, using my work context below plus the Part 1 outputs I pasted above, draft the three-section summary for me.
+
+Facts about my recent work:
+- Team Lead embedded at Capital One (via Kunai, acquired by PwC), remote, since Aug 2024. Java/XML + Go microservices.
+- Own the alert scalability and tuning program across Capital One services.
+- Built an agentic incident-research tool and set team standards for agentic workflows, MCP integrations, and Claude Code.
+- Own technical direction and backend delivery for AirKey v2 tap-to-pay services (Go on AWS).
+- Hire, onboard, and mentor engineers; coordinate across Capital One and Kunai teams.
+- Production LLM/agentic systems experience: MCP integrations, multi-agent orchestration, LLM evaluation pipelines.
+
+Draft section 1 (contributions, impact, strengths), section 2 (AI enablement), and section 3 (development and visibility) in a professional tone suitable to send to Brandon Block. Keep each section concise with bullet points. Where I have not given you a specific metric, do not invent numbers — use qualitative descriptions of impact instead.</pre></div>
+
+<h2>Reference — Hannah's original message</h2>
+<blockquote>
+<p>"Hi there Varun Ved (US)! I've got a big long message for you - we got the go ahead to initiate snapshots, and want to get those in ASAP! Here is a snapshot guide, and who to send it to. If you are able to initiate one today, that would be best that way he can get that back to us super soon!"</p>
+<p>Snapshot Preparation Guide: throughout the fiscal year, request four Snapshots, ideally one per quarter, from Leads or stakeholders who can provide meaningful feedback on your work and impact.</p>
+<p>Useful links: Snapshots document feedback on your project work and help build your performance record throughout the year. After completing a project or an important phase, access the portal and select "Initiate a Snapshot." My Dashboard brings together Snapshot feedback and performance information. Snapshot resources are in CDE, including the Snapshot Assistant Overview and Snapshot eLearn.</p>
+</blockquote>
+
+<script>
+function copyPrompt(btn) {
+  const text = btn.parentElement.querySelector('pre').innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = 'Copied!';
+    setTimeout(() => btn.textContent = 'Copy', 1500);
+  });
+}
+</script>
+</body>
+</html>
